@@ -1,44 +1,37 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19865452&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
 
-## Assignment Overview
+This project focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
 
-You will:
+## Project Overview
+
 1. Set up a React project with Vite and Tailwind CSS
 2. Create reusable UI components
 3. Implement state management using React hooks
 4. Integrate with external APIs
 5. Style your application using Tailwind CSS
 
-## Getting Started
+## Features
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+- 🖱️ **Reusable UI Components**  
+  Includes Button, Card, Navbar, and Footer components, all customizable via props.
 
-## Files Included
+- 📝 **Task Manager**  
+  Add, complete, delete, and filter tasks with persistent storage using localStorage.
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+- 🌗 **Theme Switcher**  
+  Toggle between light and dark mode using React Context and Tailwind CSS.
 
-## Requirements
+- 🔗 **API Integration**  
+  Fetches and displays data from a public API with loading, error handling, and search functionality.
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+- 📱 **Responsive Design**  
+  Fully responsive layout for mobile, tablet, and desktop devices.
+
+- ⚡ **Fast Development with Vite**  
+  Instant reloads and optimized build process.
+
+- 🎨 **Styled with Tailwind CSS**  
+  Utility-first CSS for rapid UI development and custom animations.
 
 ## Project Structure
 
@@ -55,30 +48,20 @@ src/
 
 ## Screenshots
 
-### Home Page
-![Home Page](screenshots/Screenshot%20(55).png)
+![](screenshots/Screenshot%20(57).png)
 
-### Task Manager
-![Task Manager](screenshots/Screenshot%20(57).png)
+![](screenshots/Screenshot%20(58).png)
 
-### API Demo
-![API Demo](screenshots/Screenshot%20(58).png)
+![](screenshots/Screenshot%20(59).png)
 
-### Dark Mode
-![Dark Mode](screenshots/Screenshot%20(59).png)
+![](screenshots/Screenshot%20(60).png)
 
-### Mobile View (Optional)
-![Mobile View](screenshots/Screenshot%20(60).png)
+## Deployment
 
-## Submission
+The application is deployed at: [https://wk2-express-js-app.vercel.app/](https://wk2-express-js-app.vercel.app/)
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+
 
 ## Resources
 
@@ -86,3 +69,25 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [React Router Documentation](https://reactrouter.com/) 
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone <your-repo-url>
+   ```
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Start the development server:
+   ```
+   npm run dev
+   ``` 
